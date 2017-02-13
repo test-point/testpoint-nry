@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Before starting this script:
+# export NRY_AUTH="JWT {rendered token from the idp.testpoint.io, you can get it as synthetic user}"
+
+curl --header "Authorization: ${NRY_AUTH}" 'https://nry.testpoint.io/demo_auth/'
+
+echo
