@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# do
+# export NRY_AUTH="JWT {rendered token from the idp.testpoint.io, you can get it as synthetic user}"
+
+# and use real files, I advise you to put it to var/ directory so git won't index it
+# copy params.json.example file and update it, and create whatever text file you want as object= parameter.
+
+curl -v -X POST \
+     --header "Authorization: ${NRY_AUTH}" \
+     -F "object=@var/some-document.txt" \
+     -F "parameters=@var/some-param.json" \
+     https://nry.testpoint.io/public/
+
+echo

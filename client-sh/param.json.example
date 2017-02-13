@@ -1,0 +1,10 @@
+{
+    "durability": "2018-01-01T00:00:00Z",
+    "network": "urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151::999notary999",
+    "ac_code": 0,
+    "restrict_list": [
+        "urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151::12345678910",
+        "urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151::12345678915",
+        "urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151::12345678999"
+    ]
+}
