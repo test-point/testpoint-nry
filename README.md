@@ -1,7 +1,10 @@
-# The Ausdigital Notary reference implementation and test suite
+# The Ausdigital Notary reference system
 
-See specification at https://github.com/ausdigital/ausdigital-nry
+Code related to the test notary service.
 
-See demo installation at http://testpoint.io/nry.html - work in progress
+Related:
 
-Help and questions: https://chat.ausdigital.org/
+ * specification at https://github.com/ausdigital/ausdigital-nry
+ * test service http://testpoint.io/nry.html
+ * community site http://ausdigital.org
+ 
